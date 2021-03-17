@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon API</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=latin-ext" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b2daeac6a4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/pokemonApi.css">
+</head>
+<body>
+    <main class="catalog">
+        <header class="catalog__header">
+            <h1 class="catalog__heading"><span class="catalog__heading--primary">Pokemon</span> catalog</h1>
+            <div class="search">
+                <input type="text" name="search" id="search" class="search__input" placeholder="Search Pokemon" autocomplete="off">
+                <label for="search" class="search__label">Search Pokemon</label>
+            </div>
+        </header>
+        <section class="catalog__content" data-content>
+            <p class="catalog__info hide" data-info>"There are no results"</p>
+        </section>
+        <footer class="catalog__footer">
+            <button class="catalog__button" data-button>Load more</button>
+        </footer>
+
+    </main>
+
+</body>
+
+<script src="./js/pokemonApi.js"></script>
+<script>
+    const catalog = new PokemonTCGCatalog();
+    catalog.initializeCatalog()
+</script>
+</html>
