@@ -1,6 +1,6 @@
-# pokemonApi
+# pokemonApi 
 
-### Small app with using Pokemon Cards API
+### Small app with using Pokemon Cards API 📇
 
 <br />
 
