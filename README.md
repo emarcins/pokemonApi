@@ -1,6 +1,6 @@
 # pokemonApi
 
-## Small app with using Pokemon Cards API
+### Small app with using Pokemon Cards API
 
-App was created in pure vanilla.js using OOP.
+App was created in pure *vanilla.js using OOP.*<br />
 Script was written on the basis of the tutorial of Michal Dziedzinski.
