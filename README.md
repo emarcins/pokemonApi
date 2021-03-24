@@ -1,5 +1,5 @@
 # pokemonApi
-<br />
+
 ### Small app with using Pokemon Cards API
 <br />
 App was created in pure *vanilla.js using OOP.*<br />
